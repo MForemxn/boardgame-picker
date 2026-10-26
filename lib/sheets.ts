@@ -195,7 +195,7 @@ export async function readGames(): Promise<Game[]> {
     const priceNum = toNum(r[13]);
     const masonVal = r[24];
     games.push({
-      id: slug(name),
+      id: `${slug(name)}-${row}`,
       row,
       name,
       ratings: {
@@ -254,11 +254,10 @@ function buildRow(input: GameInput): any[] {
   ];
 }
 
-/** Update an existing game at the given row. */
-export async function updateGame(row: number, input: GameInput): Promise<void> {
-  const sheets = await client();
+async function writeRow(sheets: sheets_v4.Sheets, row: number, input: GameInput): Promise<void> {
   const rowValues = buildRow(input);
-  // Write A..G (name + 6 ratings), J (last played), K..Y. Leave H & I to formulas.
+  // Text/numbers/formulas as if typed. Booleans must be RAW or Sheets turns
+  // checkboxes into the words TRUE/FALSE.
   await sheets.spreadsheets.values.batchUpdate({
     spreadsheetId: SPREADSHEET_ID,
     requestBody: {
@@ -266,39 +265,102 @@ export async function updateGame(row: number, input: GameInput): Promise<void> {
       data: [
         { range: `${SHEET_NAME}!A${row}:G${row}`, values: [rowValues.slice(0, 7)] },
         { range: `${SHEET_NAME}!J${row}:J${row}`, values: [[rowValues[9]]] },
-        { range: `${SHEET_NAME}!K${row}:Y${row}`, values: [rowValues.slice(10)] },
+        { range: `${SHEET_NAME}!K${row}:N${row}`, values: [rowValues.slice(10, 14)] },
       ],
     },
   });
+  await sheets.spreadsheets.values.update({
+    spreadsheetId: SPREADSHEET_ID,
+    range: `${SHEET_NAME}!O${row}:Y${row}`,
+    valueInputOption: "RAW",
+    requestBody: { values: [rowValues.slice(14, 25)] },
+  });
+  await ensureCheckboxes(sheets, row);
   await syncFormulas(sheets, row);
   await syncMasonHighlight(sheets, row, input.playedWithMason);
+}
+
+/** Make O..Y real checkbox cells (BOOLEAN data validation), not TRUE/FALSE text. */
+async function ensureCheckboxes(sheets: sheets_v4.Sheets, row: number): Promise<void> {
+  const sheetId = await getSheetId(sheets);
+  await sheets.spreadsheets.batchUpdate({
+    spreadsheetId: SPREADSHEET_ID,
+    requestBody: {
+      requests: [
+        {
+          setDataValidation: {
+            range: {
+              sheetId,
+              startRowIndex: row - 1,
+              endRowIndex: row,
+              startColumnIndex: 14,
+              endColumnIndex: 25,
+            },
+            rule: {
+              condition: { type: "BOOLEAN" },
+              showCustomUi: true,
+              strict: true,
+            },
+          },
+        },
+      ],
+    },
+  });
+}
+
+/** Update an existing game at the given row. */
+export async function updateGame(row: number, input: GameInput): Promise<void> {
+  const sheets = await client();
+  await writeRow(sheets, row, input);
 }
 
 /** Append a new game at the first empty row after existing data. */
 export async function addGame(input: GameInput): Promise<number> {
   const sheets = await client();
-  // Find next empty row by reading column A
   const colA = await sheets.spreadsheets.values.get({
     spreadsheetId: SPREADSHEET_ID,
     range: `${SHEET_NAME}!A${DATA_START_ROW}:A1003`,
   });
   const used = (colA.data.values || []).filter((r) => (r[0] ?? "").toString().trim()).length;
   const row = DATA_START_ROW + used;
-  const rowValues = buildRow(input);
-  await sheets.spreadsheets.values.batchUpdate({
+  await writeRow(sheets, row, input);
+  return row;
+}
+
+/** Delete the entire spreadsheet row for a game. Later rows shift up. */
+export async function deleteGame(row: number, expectedName?: string): Promise<void> {
+  if (!Number.isInteger(row) || row < DATA_START_ROW) {
+    throw new Error("Invalid row");
+  }
+  const sheets = await client();
+  if (expectedName) {
+    const got = await sheets.spreadsheets.values.get({
+      spreadsheetId: SPREADSHEET_ID,
+      range: `${SHEET_NAME}!A${row}`,
+    });
+    const actual = ((got.data.values || [])[0]?.[0] ?? "").toString().trim();
+    if (actual.toLowerCase() !== expectedName.trim().toLowerCase()) {
+      throw new Error(`Row ${row} is “${actual}”, not “${expectedName}”. Refresh and try again.`);
+    }
+  }
+  const sheetId = await getSheetId(sheets);
+  await sheets.spreadsheets.batchUpdate({
     spreadsheetId: SPREADSHEET_ID,
     requestBody: {
-      valueInputOption: "USER_ENTERED",
-      data: [
-        { range: `${SHEET_NAME}!A${row}:G${row}`, values: [rowValues.slice(0, 7)] },
-        { range: `${SHEET_NAME}!J${row}:J${row}`, values: [[rowValues[9]]] },
-        { range: `${SHEET_NAME}!K${row}:Y${row}`, values: [rowValues.slice(10)] },
+      requests: [
+        {
+          deleteDimension: {
+            range: {
+              sheetId,
+              dimension: "ROWS",
+              startIndex: row - 1,
+              endIndex: row,
+            },
+          },
+        },
       ],
     },
   });
-  await syncFormulas(sheets, row);
-  await syncMasonHighlight(sheets, row, input.playedWithMason);
-  return row;
 }
 
 /** Mark a game as just played today (updates J date + daysSince reset). */

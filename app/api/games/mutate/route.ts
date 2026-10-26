@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { addGame, updateGame, markPlayed, type GameInput } from "@/lib/sheets";
+import { addGame, updateGame, markPlayed, deleteGame, type GameInput } from "@/lib/sheets";
 
 export const dynamic = "force-dynamic";
 
@@ -67,6 +67,14 @@ export async function POST(req: NextRequest) {
       if (!row) return NextResponse.json({ ok: false, error: "row is required" }, { status: 400 });
       await markPlayed(row);
       return NextResponse.json({ ok: true, row });
+    }
+    if (action === "delete") {
+      const row = Number(body.row);
+      const name = (body.name || "").toString().trim();
+      if (!row) return NextResponse.json({ ok: false, error: "row is required" }, { status: 400 });
+      if (!name) return NextResponse.json({ ok: false, error: "name is required" }, { status: 400 });
+      await deleteGame(row, name);
+      return NextResponse.json({ ok: true, row, deleted: name });
     }
     return NextResponse.json({ ok: false, error: "Unknown action" }, { status: 400 });
   } catch (e: any) {

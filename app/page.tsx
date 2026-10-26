@@ -16,12 +16,15 @@ import {
 
 type Tab = "pick" | "browse" | "add";
 
+type Skin = "night" | "table";
+
 export default function Home() {
   const [tab, setTab] = useState<Tab>("pick");
   const [games, setGames] = useState<Game[]>([]);
   const [source, setSource] = useState<string>("");
   const [loading, setLoading] = useState(true);
   const [editing, setEditing] = useState<Game | null>(null);
+  const [skin, setSkin] = useState<Skin>("night");
 
   const load = useCallback(async () => {
     setLoading(true);
@@ -39,18 +42,58 @@ export default function Home() {
     load();
   }, [load]);
 
+  useEffect(() => {
+    const onVis = () => {
+      if (document.visibilityState === "visible") load();
+    };
+    document.addEventListener("visibilitychange", onVis);
+    return () => document.removeEventListener("visibilitychange", onVis);
+  }, [load]);
+
+  useEffect(() => {
+    const saved = window.localStorage.getItem("bgp-skin");
+    if (saved === "table" || saved === "night") setSkin(saved);
+  }, []);
+
+  useEffect(() => {
+    document.documentElement.dataset.skin = skin;
+    window.localStorage.setItem("bgp-skin", skin);
+  }, [skin]);
+
   const writable = source === "sheet";
 
   return (
     <div className="container">
       <div className="header">
-        <h1>🎲 Board Game Picker</h1>
+        <div className="skin-toggle" role="group" aria-label="Look">
+          <button
+            type="button"
+            className={skin === "night" ? "on" : ""}
+            onClick={() => setSkin("night")}
+          >
+            Night
+          </button>
+          <button
+            type="button"
+            className={skin === "table" ? "on" : ""}
+            onClick={() => setSkin("table")}
+          >
+            Table
+          </button>
+        </div>
+        <h1>{skin === "table" ? "The Engine" : "Board Game Picker"}</h1>
+        <p className="masthead">
+          {skin === "table" ? "Adam’s collection · player aid" : "Adam’s collection"}
+        </p>
         <p>
-          {loading ? "Loading…" : `${games.length} games in the collection`}
+          {loading ? "Loading…" : `${games.length} games`}
           {!loading && source === "fallback" && (
             <span className="hint"> · read-only snapshot (sheet not connected)</span>
           )}
-          {!loading && writable && <span className="hint"> · live from spreadsheet</span>}
+          {!loading && writable && <span className="hint"> · live from the spreadsheet</span>}
+          <button type="button" className="refresh" onClick={() => load()} disabled={loading}>
+            Refresh
+          </button>
         </p>
       </div>
 
@@ -216,9 +259,15 @@ function BrowseTab({
   const [q, setQ] = useState("");
   const [sort, setSort] = useState<"rank" | "name" | "rating" | "recent">("rank");
   const [busyRow, setBusyRow] = useState<number | null>(null);
+  const [pending, setPending] = useState<null | { game: Game; step: 1 | 2 }>(null);
+  const [typed, setTyped] = useState("");
+  const [deleteErr, setDeleteErr] = useState<string | null>(null);
 
   const list = useMemo(() => {
-    let l = games.filter((g) => g.name.toLowerCase().includes(q.toLowerCase()));
+    const needle = q.trim().toLowerCase();
+    let l = needle
+      ? games.filter((g) => g.name.toLowerCase().includes(needle))
+      : games;
     l = [...l].sort((a, b) => {
       if (sort === "name") return a.name.localeCompare(b.name);
       if (sort === "rating") return (b.ratings.personal ?? 0) - (a.ratings.personal ?? 0);
@@ -242,6 +291,36 @@ function BrowseTab({
     }
   }
 
+  async function confirmDelete() {
+    if (!pending || pending.step !== 2) return;
+    const g = pending.game;
+    if (typed.trim().toLowerCase() !== g.name.trim().toLowerCase()) {
+      setDeleteErr("Name doesn’t match. Type it exactly to delete.");
+      return;
+    }
+    setBusyRow(g.row);
+    setDeleteErr(null);
+    try {
+      const res = await fetch("/api/games/mutate", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ action: "delete", row: g.row, name: g.name }),
+      });
+      const data = await res.json();
+      if (!data.ok) {
+        setDeleteErr(data.error || "Delete failed.");
+        return;
+      }
+      setPending(null);
+      setTyped("");
+      onChanged();
+    } catch (e: any) {
+      setDeleteErr(e.message || "Delete failed.");
+    } finally {
+      setBusyRow(null);
+    }
+  }
+
   return (
     <div className="panel">
       <div className="search-bar">
@@ -258,7 +337,7 @@ function BrowseTab({
       <p className="count">{list.length} games</p>
       <div className="game-list">
         {list.map((g) => (
-          <div key={g.id} className={`game-card ${g.playedWithMason ? "played" : ""}`}>
+          <div key={g.row} className={`game-card ${g.playedWithMason ? "played" : ""}`}>
             <div className="gname">{g.name}</div>
             <div className="gmeta">
               {playerLabel(g)}
@@ -279,11 +358,70 @@ function BrowseTab({
                 >
                   {busyRow === g.row ? "…" : "Played today"}
                 </button>
+                <button
+                  className="btn danger small"
+                  disabled={busyRow === g.row}
+                  onClick={() => {
+                    setTyped("");
+                    setDeleteErr(null);
+                    setPending({ game: g, step: 1 });
+                  }}
+                >
+                  Delete
+                </button>
               </div>
             )}
           </div>
         ))}
       </div>
+
+      {pending && (
+        <div className="modal-scrim" onClick={() => setPending(null)}>
+          <div className="modal" onClick={(e) => e.stopPropagation()} role="dialog" aria-modal="true">
+            {pending.step === 1 ? (
+              <>
+                <h3>Remove this game?</h3>
+                <p>
+                  <strong>{pending.game.name}</strong> will be taken off the collection list.
+                  The spreadsheet row is not deleted yet.
+                </p>
+                <div className="card-actions">
+                  <button className="btn secondary" onClick={() => setPending(null)}>Cancel</button>
+                  <button className="btn danger" onClick={() => setPending({ ...pending, step: 2 })}>
+                    Continue
+                  </button>
+                </div>
+              </>
+            ) : (
+              <>
+                <h3>Delete the spreadsheet row</h3>
+                <p>
+                  This removes the entire entry for <strong>{pending.game.name}</strong> from
+                  the Google Sheet. Type the game name to confirm.
+                </p>
+                <input
+                  type="text"
+                  autoFocus
+                  placeholder={pending.game.name}
+                  value={typed}
+                  onChange={(e) => setTyped(e.target.value)}
+                />
+                {deleteErr && <p className="count" style={{ color: "var(--danger)" }}>{deleteErr}</p>}
+                <div className="card-actions">
+                  <button className="btn secondary" onClick={() => setPending(null)}>Cancel</button>
+                  <button
+                    className="btn danger"
+                    disabled={busyRow === pending.game.row}
+                    onClick={confirmDelete}
+                  >
+                    {busyRow === pending.game.row ? "Deleting…" : "Delete permanently"}
+                  </button>
+                </div>
+              </>
+            )}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
