@@ -482,33 +482,33 @@ input[type="date"] {
   margin-bottom: 14px;
 }
 
-/* ---- Table skin: felt + player-aid, not SaaS night mode ---- */
+/* ---- Table skin: purple felt + cream player-aid ---- */
 html[data-skin="table"],
 html[data-skin="table"] body {
   background:
-    radial-gradient(circle at 20% 10%, rgba(255, 255, 255, 0.04), transparent 28%),
+    radial-gradient(circle at 18% 8%, rgba(232, 212, 255, 0.09), transparent 30%),
     repeating-linear-gradient(
       0deg,
-      rgba(0, 0, 0, 0.035) 0 1px,
+      rgba(0, 0, 0, 0.04) 0 1px,
       transparent 1px 3px
     ),
-    #1f5a3a;
+    #3d1f5c;
   color: #1c140c;
   font-family: var(--font-mono), "IBM Plex Mono", ui-monospace, monospace;
 }
 
 html[data-skin="table"] {
-  --bg: #1f5a3a;
+  --bg: #3d1f5c;
   --bg2: #f3e6c8;
   --card: #f7edd4;
   --card2: #efe2c0;
   --ink: #1c140c;
   --muted: #5c4a32;
-  --accent: #8e1d1d;
-  --accent2: #c4a35a;
-  --blue: #3d5a80;
-  --danger: #8e1d1d;
-  --line: #2a1a10;
+  --accent: #5c2d91;
+  --accent2: #c4a5e8;
+  --blue: #6b4ea1;
+  --danger: #6b1f4a;
+  --line: #2a1440;
   --radius: 2px;
 }
 
@@ -522,35 +522,35 @@ html[data-skin="table"] .header h1 {
   font-size: 2.6rem;
   font-weight: 700;
   letter-spacing: -0.03em;
-  color: #f4e4b8;
-  text-shadow: 0 1px 0 #0c2418;
+  color: #e8d4ff;
+  text-shadow: 0 1px 0 #241038;
 }
 
 html[data-skin="table"] .header p,
 html[data-skin="table"] .masthead {
-  color: #d7c48a;
+  color: #c4a5e8;
   font-weight: 600;
 }
 
 html[data-skin="table"] .skin-toggle {
-  border-color: #d7c48a;
+  border-color: #c4a5e8;
   border-radius: 0;
 }
 
 html[data-skin="table"] .skin-toggle button {
-  background: #163d28;
-  color: #d7c48a;
+  background: #2a1440;
+  color: #c4a5e8;
   border-radius: 0;
 }
 
 html[data-skin="table"] .skin-toggle button.on {
-  background: #f4e4b8;
-  color: #163d28;
+  background: #e8d4ff;
+  color: #2a1440;
 }
 
 html[data-skin="table"] .refresh {
-  border-color: #d7c48a;
-  color: #d7c48a;
+  border-color: #c4a5e8;
+  color: #c4a5e8;
   border-radius: 0;
 }
 
@@ -559,9 +559,9 @@ html[data-skin="table"] .tabs {
 }
 
 html[data-skin="table"] .tab {
-  background: #c9b48a;
+  background: #c4b0d8;
   color: #1c140c;
-  border: 1px solid #2a1a10;
+  border: 1px solid #2a1440;
   border-bottom: none;
   border-radius: 6px 6px 0 0;
   margin: 0 4px;
@@ -570,15 +570,15 @@ html[data-skin="table"] .tab {
 
 html[data-skin="table"] .tab.active {
   background: #f7edd4;
-  color: #8e1d1d;
+  color: #5c2d91;
   box-shadow: none;
 }
 
 html[data-skin="table"] .panel {
   background: #f7edd4;
-  border: 2px solid #2a1a10;
+  border: 2px solid #2a1440;
   border-radius: 0 8px 8px 8px;
-  box-shadow: 6px 8px 0 #0c2418;
+  box-shadow: 6px 8px 0 #241038;
 }
 
 html[data-skin="table"] .panel h2,
@@ -595,20 +595,20 @@ html[data-skin="table"] .chip,
 html[data-skin="table"] .seg,
 html[data-skin="table"] .badge {
   border-radius: 0;
-  border-color: #2a1a10;
+  border-color: #2a1440;
 }
 
 html[data-skin="table"] .chip.on,
 html[data-skin="table"] .seg button.on {
-  background: #8e1d1d;
+  background: #5c2d91;
   color: #f7edd4;
 }
 
 html[data-skin="table"] .btn {
-  background: #8e1d1d;
-  border: 2px solid #2a1a10;
+  background: #5c2d91;
+  border: 2px solid #2a1440;
   border-radius: 0;
-  box-shadow: 3px 3px 0 #2a1a10;
+  box-shadow: 3px 3px 0 #2a1440;
   font-family: var(--font-display), Fraunces, Georgia, serif;
 }
 
@@ -617,20 +617,25 @@ html[data-skin="table"] .btn.secondary {
   color: #1c140c;
 }
 
+html[data-skin="table"] .btn.danger {
+  background: #6b1f4a;
+  border-color: #2a1440;
+}
+
 html[data-skin="table"] .game-card {
   background: #fffaf0;
-  border: 1px solid #2a1a10;
+  border: 1px solid #2a1440;
   border-radius: 0;
-  box-shadow: 3px 3px 0 #c9b48a;
+  box-shadow: 3px 3px 0 #c4b0d8;
 }
 
 html[data-skin="table"] .game-card.played {
-  border-left: 6px solid #3d5a80;
+  border-left: 6px solid #6b4ea1;
 }
 
 html[data-skin="table"] .modal {
   background: #f7edd4;
-  border: 2px solid #2a1a10;
+  border: 2px solid #2a1440;
   border-radius: 0;
 }
 
@@ -639,13 +644,13 @@ html[data-skin="table"] input[type="text"],
 html[data-skin="table"] input[type="date"],
 html[data-skin="table"] select {
   background: #fffaf0;
-  border: 1px solid #2a1a10;
+  border: 1px solid #2a1440;
   border-radius: 0;
   color: #1c140c;
   color-scheme: light;
 }
 
 html[data-skin="table"] .result {
-  border: 1px dashed #8e1d1d;
+  border: 1px dashed #5c2d91;
   background: #fffaf0;
 }
