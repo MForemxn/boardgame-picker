@@ -1,6 +1,7 @@
 /.next/
 /node_modules/
 /out/
+/backups/
 *.tsbuildinfo
 next-env.d.ts
 .env*.local

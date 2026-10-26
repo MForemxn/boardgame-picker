@@ -340,8 +340,54 @@ select {
   overflow: auto;
 }
 
+.card-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.ratings-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.rating-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  background: var(--card2);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 8px 12px;
+}
+
+.rating-item span {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.rating-item input {
+  width: 72px;
+}
+
+input[type="date"] {
+  background: var(--card2);
+  border: 1px solid var(--line);
+  color: var(--ink);
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 0.95rem;
+  width: 100%;
+  color-scheme: dark;
+}
+
 @media (max-width: 560px) {
   .add-grid {
+    grid-template-columns: 1fr;
+  }
+  .ratings-grid {
     grid-template-columns: 1fr;
   }
   .result .name {
