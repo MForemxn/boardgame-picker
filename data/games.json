@@ -1,0 +1,3092 @@
+[
+  {
+    "name": "Carcassone",
+    "rating": 10,
+    "total": 98.5,
+    "rank": 1,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "recommended": 3,
+    "bestPrice": "$54.95",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "carcassone"
+  },
+  {
+    "name": "Dominion",
+    "rating": 10,
+    "total": 98,
+    "rank": 2,
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "recommended": 3,
+    "bestPrice": null,
+    "categories": [
+      "Card",
+      "Strategy"
+    ],
+    "playedWithMason": true,
+    "id": "dominion"
+  },
+  {
+    "name": "Set",
+    "rating": 10,
+    "total": 98,
+    "rank": 2,
+    "minPlayers": 1,
+    "maxPlayers": 8,
+    "recommended": 4,
+    "bestPrice": "$17.95",
+    "categories": [
+      "Card",
+      "Puzzle",
+      "Skill"
+    ],
+    "playedWithMason": true,
+    "id": "set"
+  },
+  {
+    "name": "Subjective",
+    "rating": 10,
+    "total": 97.5,
+    "rank": 4,
+    "minPlayers": 3,
+    "maxPlayers": 8,
+    "recommended": 6,
+    "bestPrice": "$70.00",
+    "categories": [
+      "Card",
+      "Party",
+      "Knowledge"
+    ],
+    "playedWithMason": false,
+    "id": "subjective"
+  },
+  {
+    "name": "That's Not A Hat",
+    "rating": 10,
+    "total": 97.5,
+    "rank": 4,
+    "minPlayers": 3,
+    "maxPlayers": 8,
+    "recommended": 5,
+    "bestPrice": null,
+    "categories": [
+      "Card",
+      "Puzzle",
+      "Deception",
+      "Knowledge"
+    ],
+    "playedWithMason": true,
+    "id": "that-s-not-a-hat"
+  },
+  {
+    "name": "Monikers",
+    "rating": 10,
+    "total": 97,
+    "rank": 6,
+    "minPlayers": 3,
+    "maxPlayers": 20,
+    "recommended": 10,
+    "bestPrice": "$49.00",
+    "categories": [
+      "Card",
+      "Party",
+      "Knowledge",
+      "Luck",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": true,
+    "id": "monikers"
+  },
+  {
+    "name": "Dorfromantik",
+    "rating": 10,
+    "total": 96.5,
+    "rank": 7,
+    "minPlayers": 1,
+    "maxPlayers": 6,
+    "recommended": 3,
+    "bestPrice": "$51.50",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Strategy",
+      "Luck",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": true,
+    "id": "dorfromantik"
+  },
+  {
+    "name": "Antidote",
+    "rating": 10,
+    "total": 96,
+    "rank": 8,
+    "minPlayers": 2,
+    "maxPlayers": 7,
+    "recommended": 5,
+    "bestPrice": "$19.95",
+    "categories": [
+      "Card",
+      "Puzzle",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "antidote"
+  },
+  {
+    "name": "Skull",
+    "rating": 9.5,
+    "total": 96,
+    "rank": 8,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "recommended": 6,
+    "bestPrice": "$33.00",
+    "categories": [
+      "Board",
+      "Deception",
+      "Strategy"
+    ],
+    "playedWithMason": false,
+    "id": "skull"
+  },
+  {
+    "name": "Clank!",
+    "rating": 10,
+    "total": 95.5,
+    "rank": 10,
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "recommended": 3,
+    "bestPrice": "$80.00",
+    "categories": [
+      "Board",
+      "Card",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": true,
+    "id": "clank"
+  },
+  {
+    "name": "Decrypto",
+    "rating": 10,
+    "total": 95.5,
+    "rank": 10,
+    "minPlayers": 3,
+    "maxPlayers": 8,
+    "recommended": 6,
+    "bestPrice": "$29.95",
+    "categories": [
+      "Board",
+      "Card",
+      "Puzzle",
+      "Deception",
+      "Strategy",
+      "Knowledge",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": true,
+    "id": "decrypto"
+  },
+  {
+    "name": "Dutch Blitz",
+    "rating": 9.5,
+    "total": 95.5,
+    "rank": 10,
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "recommended": 4,
+    "bestPrice": "$17.99",
+    "categories": [
+      "Card",
+      "Party",
+      "Skill",
+      "Luck"
+    ],
+    "playedWithMason": true,
+    "id": "dutch-blitz"
+  },
+  {
+    "name": "Fluxx",
+    "rating": 9.5,
+    "total": 95.5,
+    "rank": 10,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "recommended": 5,
+    "bestPrice": "$26.95",
+    "categories": [
+      "Card",
+      "Party",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": true,
+    "id": "fluxx"
+  },
+  {
+    "name": "7 Wonders Architect",
+    "rating": 9.5,
+    "total": 95,
+    "rank": 14,
+    "minPlayers": 2,
+    "maxPlayers": 7,
+    "recommended": 4,
+    "bestPrice": "$68.95",
+    "categories": [
+      "Board",
+      "Card",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": true,
+    "id": "7-wonders-architect"
+  },
+  {
+    "name": "Aurum",
+    "rating": 9.5,
+    "total": 95,
+    "rank": 14,
+    "minPlayers": 3,
+    "maxPlayers": 4,
+    "recommended": 4,
+    "bestPrice": "$20.00",
+    "categories": [
+      "Card",
+      "Strategy",
+      "Luck",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "aurum"
+  },
+  {
+    "name": "Bang! The Bullet!",
+    "rating": 10,
+    "total": 95,
+    "rank": 14,
+    "minPlayers": 3,
+    "maxPlayers": 8,
+    "recommended": 7,
+    "bestPrice": "$58.00",
+    "categories": [
+      "Card",
+      "Deception",
+      "Strategy",
+      "Luck",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "bang-the-bullet"
+  },
+  {
+    "name": "Love Letters",
+    "rating": 10,
+    "total": 95,
+    "rank": 14,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "recommended": 4,
+    "bestPrice": "$17.00",
+    "categories": [
+      "Card",
+      "Puzzle",
+      "Deception",
+      "Strategy",
+      "Skill",
+      "Luck"
+    ],
+    "playedWithMason": true,
+    "id": "love-letters"
+  },
+  {
+    "name": "Not Enough Mana",
+    "rating": 10,
+    "total": 95,
+    "rank": 14,
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "recommended": 5,
+    "bestPrice": "$42.92",
+    "categories": [
+      "Card",
+      "Party",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": true,
+    "id": "not-enough-mana"
+  },
+  {
+    "name": "Panda Royale",
+    "rating": 9.5,
+    "total": 95,
+    "rank": 14,
+    "minPlayers": 2,
+    "maxPlayers": 10,
+    "recommended": 6,
+    "bestPrice": "$72.00",
+    "categories": [
+      "Party",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": true,
+    "id": "panda-royale"
+  },
+  {
+    "name": "Quacks Of Quedlinburg Mega Box",
+    "rating": 9.5,
+    "total": 95,
+    "rank": 14,
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "recommended": 4,
+    "bestPrice": "$129.95",
+    "categories": [
+      "Board",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": true,
+    "id": "quacks-of-quedlinburg-mega-box"
+  },
+  {
+    "name": "That Time You Killed Me",
+    "rating": 9.5,
+    "total": 95,
+    "rank": 14,
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "recommended": 2,
+    "bestPrice": "$77.95",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Strategy"
+    ],
+    "playedWithMason": true,
+    "id": "that-time-you-killed-me"
+  },
+  {
+    "name": "Concept",
+    "rating": 10,
+    "total": 94.5,
+    "rank": 22,
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "recommended": 6,
+    "bestPrice": "$67.95",
+    "categories": [
+      "Board",
+      "Card",
+      "Party",
+      "Puzzle",
+      "Knowledge",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": true,
+    "id": "concept"
+  },
+  {
+    "name": "Dorfromantik: The Duel",
+    "rating": 9.5,
+    "total": 94.5,
+    "rank": 22,
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "recommended": 2,
+    "bestPrice": "$38.50",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "dorfromantik-the-duel"
+  },
+  {
+    "name": "One Night Ultimate Werwolf",
+    "rating": 10,
+    "total": 94.5,
+    "rank": 22,
+    "minPlayers": 3,
+    "maxPlayers": 13,
+    "recommended": 6,
+    "bestPrice": "$33.00",
+    "categories": [
+      "Board",
+      "Party",
+      "Deception",
+      "Strategy",
+      "Luck",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "one-night-ultimate-werwolf"
+  },
+  {
+    "name": "Splendor Duel",
+    "rating": 10,
+    "total": 94.5,
+    "rank": 22,
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "recommended": 2,
+    "bestPrice": "$39.95",
+    "categories": [
+      "Card",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": true,
+    "id": "splendor-duel"
+  },
+  {
+    "name": "7 Wonders",
+    "rating": 9.5,
+    "total": 94,
+    "rank": 26,
+    "minPlayers": 2,
+    "maxPlayers": 7,
+    "recommended": 5,
+    "bestPrice": "$69.95",
+    "categories": [
+      "Card",
+      "Puzzle",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "7-wonders"
+  },
+  {
+    "name": "Anomia",
+    "rating": 10,
+    "total": 94,
+    "rank": 26,
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "recommended": 6,
+    "bestPrice": "$30.00",
+    "categories": [
+      "Card",
+      "Party",
+      "Knowledge",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "anomia"
+  },
+  {
+    "name": "Azul",
+    "rating": 9.5,
+    "total": 94,
+    "rank": 26,
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "recommended": 3,
+    "bestPrice": "$39.95",
+    "categories": [
+      "Board",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "azul"
+  },
+  {
+    "name": "Coyote",
+    "rating": 9,
+    "total": 94,
+    "rank": 26,
+    "minPlayers": 3,
+    "maxPlayers": 8,
+    "recommended": 4,
+    "bestPrice": null,
+    "categories": [
+      "Card",
+      "Party",
+      "Strategy"
+    ],
+    "playedWithMason": true,
+    "id": "coyote"
+  },
+  {
+    "name": "Deception: Murder in New York + Expansions",
+    "rating": 10,
+    "total": 94,
+    "rank": 26,
+    "minPlayers": 5,
+    "maxPlayers": 12,
+    "recommended": 8,
+    "bestPrice": "$58.00",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Deception",
+      "Strategy",
+      "Skill",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "deception-murder-in-new-york-expansions"
+  },
+  {
+    "name": "Onitama",
+    "rating": 9.5,
+    "total": 94,
+    "rank": 26,
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "recommended": 2,
+    "bestPrice": "$47.96",
+    "categories": [
+      "Board",
+      "Card",
+      "Puzzle",
+      "Strategy"
+    ],
+    "playedWithMason": true,
+    "id": "onitama"
+  },
+  {
+    "name": "Secret Hitler",
+    "rating": 10,
+    "total": 94,
+    "rank": 26,
+    "minPlayers": 5,
+    "maxPlayers": 10,
+    "recommended": 10,
+    "bestPrice": "$70.00",
+    "categories": [
+      "Board",
+      "Party",
+      "Deception",
+      "Strategy",
+      "Skill",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "secret-hitler"
+  },
+  {
+    "name": "Slay the Spire the Board Game",
+    "rating": 10,
+    "total": 94,
+    "rank": 26,
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "recommended": 2,
+    "bestPrice": "$194.95",
+    "categories": [
+      "Board",
+      "Card",
+      "Strategy",
+      "Luck",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "slay-the-spire-the-board-game"
+  },
+  {
+    "name": "Splendor",
+    "rating": 9.5,
+    "total": 94,
+    "rank": 26,
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "recommended": 4,
+    "bestPrice": "$46.00",
+    "categories": [
+      "Board",
+      "Card",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "splendor"
+  },
+  {
+    "name": "Colt Express",
+    "rating": 9.5,
+    "total": 93.5,
+    "rank": 35,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "recommended": 5,
+    "bestPrice": "$48.00",
+    "categories": [
+      "Board",
+      "Card",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "colt-express"
+  },
+  {
+    "name": "6 nimmt!",
+    "rating": 9,
+    "total": 93,
+    "rank": 36,
+    "minPlayers": 2,
+    "maxPlayers": 10,
+    "recommended": 6,
+    "bestPrice": "$14.95",
+    "categories": [
+      "Card",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": true,
+    "id": "6-nimmt"
+  },
+  {
+    "name": "Cash n Guns",
+    "rating": 9,
+    "total": 93,
+    "rank": 36,
+    "minPlayers": 4,
+    "maxPlayers": 8,
+    "recommended": 8,
+    "bestPrice": "$62.00",
+    "categories": [
+      "Board",
+      "Party",
+      "Deception",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "cash-n-guns"
+  },
+  {
+    "name": "Dead of Winter",
+    "rating": 10,
+    "total": 93,
+    "rank": 36,
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "recommended": 4,
+    "bestPrice": "$108.95",
+    "categories": [
+      "Board",
+      "Card",
+      "Deception",
+      "Strategy",
+      "Luck",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "dead-of-winter"
+  },
+  {
+    "name": "Fire Tower",
+    "rating": 9,
+    "total": 93,
+    "rank": 36,
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "recommended": 4,
+    "bestPrice": "$25.00",
+    "categories": [
+      "Board",
+      "Card",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": true,
+    "id": "fire-tower"
+  },
+  {
+    "name": "Flip 7",
+    "rating": 9,
+    "total": 93,
+    "rank": 36,
+    "minPlayers": 3,
+    "maxPlayers": 18,
+    "recommended": 6,
+    "bestPrice": "$15.00",
+    "categories": [
+      "Card",
+      "Party",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": true,
+    "id": "flip-7"
+  },
+  {
+    "name": "Loot n' Loaded",
+    "rating": 9,
+    "total": 93,
+    "rank": 36,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "recommended": 3,
+    "bestPrice": "$67.71",
+    "categories": [
+      "Card",
+      "Party",
+      "Strategy"
+    ],
+    "playedWithMason": false,
+    "id": "loot-n-loaded"
+  },
+  {
+    "name": "Machi Koro (+ Expansions)",
+    "rating": 9,
+    "total": 93,
+    "rank": 36,
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "recommended": 4,
+    "bestPrice": "$40.00",
+    "categories": [
+      "Card",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "machi-koro-expansions"
+  },
+  {
+    "name": "Omerta",
+    "rating": 9.5,
+    "total": 93,
+    "rank": 36,
+    "minPlayers": 3,
+    "maxPlayers": 5,
+    "recommended": 4,
+    "bestPrice": "$33.17",
+    "categories": [
+      "Card",
+      "Puzzle",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": true,
+    "id": "omerta"
+  },
+  {
+    "name": "Poetry For Neanderthals",
+    "rating": 9,
+    "total": 93,
+    "rank": 36,
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "recommended": 8,
+    "bestPrice": "$39.99",
+    "categories": [
+      "Card",
+      "Party",
+      "Knowledge",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "poetry-for-neanderthals"
+  },
+  {
+    "name": "Priorities",
+    "rating": 9,
+    "total": 93,
+    "rank": 36,
+    "minPlayers": 2,
+    "maxPlayers": 10,
+    "recommended": 6,
+    "bestPrice": "$19.00",
+    "categories": [
+      "Card",
+      "Party",
+      "Knowledge",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "priorities"
+  },
+  {
+    "name": "Quarto",
+    "rating": 9.5,
+    "total": 93,
+    "rank": 36,
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "recommended": 2,
+    "bestPrice": "$40.00",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Strategy",
+      "Skill"
+    ],
+    "playedWithMason": true,
+    "id": "quarto"
+  },
+  {
+    "name": "Queen By Midnight",
+    "rating": 10,
+    "total": 93,
+    "rank": 36,
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "recommended": 4,
+    "bestPrice": "$106.00",
+    "categories": [],
+    "playedWithMason": false,
+    "id": "queen-by-midnight"
+  },
+  {
+    "name": "Royal Visit",
+    "rating": 9.5,
+    "total": 93,
+    "rank": 36,
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "recommended": 2,
+    "bestPrice": "$33.45",
+    "categories": [
+      "Board",
+      "Card",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": true,
+    "id": "royal-visit"
+  },
+  {
+    "name": "Stay Cool",
+    "rating": 9.5,
+    "total": 93,
+    "rank": 36,
+    "minPlayers": 3,
+    "maxPlayers": 7,
+    "recommended": 4,
+    "bestPrice": "$38.45",
+    "categories": [
+      "Board",
+      "Card",
+      "Knowledge",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "stay-cool"
+  },
+  {
+    "name": "Celestia",
+    "rating": 9,
+    "total": 92.5,
+    "rank": 50,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "recommended": 6,
+    "bestPrice": "$59.95",
+    "categories": [
+      "Board",
+      "Card",
+      "Deception",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "celestia"
+  },
+  {
+    "name": "Decorum",
+    "rating": 10,
+    "total": 92.5,
+    "rank": 50,
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "recommended": 2,
+    "bestPrice": null,
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": true,
+    "id": "decorum"
+  },
+  {
+    "name": "Doomlings",
+    "rating": 9,
+    "total": 92.5,
+    "rank": 50,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "recommended": 4,
+    "bestPrice": "$57.60",
+    "categories": [
+      "Card",
+      "Party",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "doomlings"
+  },
+  {
+    "name": "Just One",
+    "rating": 9,
+    "total": 92.5,
+    "rank": 50,
+    "minPlayers": 3,
+    "maxPlayers": 7,
+    "recommended": 7,
+    "bestPrice": "$32.00",
+    "categories": [
+      "Board",
+      "Party",
+      "Strategy",
+      "Knowledge",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "just-one"
+  },
+  {
+    "name": "Quorridor",
+    "rating": 9,
+    "total": 92.5,
+    "rank": 50,
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "recommended": 2,
+    "bestPrice": "$39.95",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Strategy",
+      "Skill"
+    ],
+    "playedWithMason": false,
+    "id": "quorridor"
+  },
+  {
+    "name": "RUN",
+    "rating": 9.5,
+    "total": 92.5,
+    "rank": 50,
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "recommended": 2,
+    "bestPrice": "$60.00",
+    "categories": [
+      "Board",
+      "Card",
+      "Puzzle",
+      "Strategy",
+      "Skill"
+    ],
+    "playedWithMason": false,
+    "id": "run"
+  },
+  {
+    "name": "The Crew: Quest for Planet Nine",
+    "rating": 9.5,
+    "total": 92.5,
+    "rank": 50,
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "recommended": 4,
+    "bestPrice": "$22.00",
+    "categories": [
+      "Card",
+      "Puzzle",
+      "Strategy",
+      "Luck",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "the-crew-quest-for-planet-nine"
+  },
+  {
+    "name": "Uno Flip",
+    "rating": 9,
+    "total": 92.5,
+    "rank": 50,
+    "minPlayers": 2,
+    "maxPlayers": 10,
+    "recommended": 6,
+    "bestPrice": "$10.00",
+    "categories": [
+      "Card",
+      "Party",
+      "Luck"
+    ],
+    "playedWithMason": true,
+    "id": "uno-flip"
+  },
+  {
+    "name": "Uno: Show 'Em No Mercy",
+    "rating": 9,
+    "total": 92.5,
+    "rank": 50,
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "recommended": 5,
+    "bestPrice": "$14.00",
+    "categories": [
+      "Card",
+      "Party",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "uno-show-em-no-mercy"
+  },
+  {
+    "name": "Wavelength",
+    "rating": 9,
+    "total": 92.5,
+    "rank": 50,
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "recommended": 8,
+    "bestPrice": "$58.00",
+    "categories": [
+      "Board",
+      "Party",
+      "Puzzle",
+      "Knowledge",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "wavelength"
+  },
+  {
+    "name": "We're Doomed!",
+    "rating": 9,
+    "total": 92.5,
+    "rank": 50,
+    "minPlayers": 4,
+    "maxPlayers": 10,
+    "recommended": 10,
+    "bestPrice": "$59.00",
+    "categories": [
+      "Card",
+      "Party",
+      "Deception",
+      "Strategy",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "we-re-doomed"
+  },
+  {
+    "name": "7 Wonders Duel",
+    "rating": 9.5,
+    "total": 92,
+    "rank": 61,
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "recommended": 2,
+    "bestPrice": "$33.99",
+    "categories": [
+      "Board",
+      "Card",
+      "Strategy"
+    ],
+    "playedWithMason": true,
+    "id": "7-wonders-duel"
+  },
+  {
+    "name": "Clank! Legacy: Acquisitions Incorporated",
+    "rating": 10,
+    "total": 92,
+    "rank": 61,
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "recommended": 4,
+    "bestPrice": "$152.95",
+    "categories": [
+      "Board",
+      "Card",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "clank-legacy-acquisitions-incorporated"
+  },
+  {
+    "name": "Cryptid",
+    "rating": 10,
+    "total": 92,
+    "rank": 61,
+    "minPlayers": 3,
+    "maxPlayers": 5,
+    "recommended": 4,
+    "bestPrice": "$48.00",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Strategy",
+      "Skill"
+    ],
+    "playedWithMason": true,
+    "id": "cryptid"
+  },
+  {
+    "name": "Pylos",
+    "rating": 9,
+    "total": 92,
+    "rank": 61,
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "recommended": 2,
+    "bestPrice": "$25.95",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Strategy",
+      "Skill"
+    ],
+    "playedWithMason": true,
+    "id": "pylos"
+  },
+  {
+    "name": "The Game",
+    "rating": 8.5,
+    "total": 92,
+    "rank": 61,
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "recommended": 3,
+    "bestPrice": "$19.95",
+    "categories": [
+      "Card",
+      "Party",
+      "Strategy",
+      "Luck",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "the-game"
+  },
+  {
+    "name": "Werewords",
+    "rating": 9,
+    "total": 92,
+    "rank": 61,
+    "minPlayers": 4,
+    "maxPlayers": 10,
+    "recommended": 8,
+    "bestPrice": "$30.00",
+    "categories": [
+      "Board",
+      "Party",
+      "Puzzle",
+      "Deception",
+      "Strategy",
+      "Knowledge",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "werewords"
+  },
+  {
+    "name": "Betrayal At House on the Hill (2nd Edition)",
+    "rating": 10,
+    "total": 91.5,
+    "rank": 67,
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "recommended": 6,
+    "bestPrice": "$66.00",
+    "categories": [
+      "Board",
+      "Strategy",
+      "Luck",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "betrayal-at-house-on-the-hill-2nd-edition"
+  },
+  {
+    "name": "One Hit Heroes",
+    "rating": 9.5,
+    "total": 91.5,
+    "rank": 67,
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "recommended": 3,
+    "bestPrice": "$119.28",
+    "categories": [
+      "Card",
+      "Puzzle",
+      "Strategy",
+      "Luck",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "one-hit-heroes"
+  },
+  {
+    "name": "Psycho Killer",
+    "rating": 9,
+    "total": 91.5,
+    "rank": 67,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "recommended": 4,
+    "bestPrice": "$29.99",
+    "categories": [
+      "Card",
+      "Party",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "psycho-killer"
+  },
+  {
+    "name": "Settlers of Catan",
+    "rating": 9,
+    "total": 91.5,
+    "rank": 67,
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "recommended": 4,
+    "bestPrice": "$46.00",
+    "categories": [
+      "Board",
+      "Strategy",
+      "Skill",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "settlers-of-catan"
+  },
+  {
+    "name": "Stardew Valley the Board Game",
+    "rating": 9.5,
+    "total": 91.5,
+    "rank": 67,
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "recommended": 2,
+    "bestPrice": "$98.00",
+    "categories": [
+      "Board",
+      "Card",
+      "Puzzle",
+      "Strategy",
+      "Luck",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": true,
+    "id": "stardew-valley-the-board-game"
+  },
+  {
+    "name": "Machi Koro 2",
+    "rating": 9.5,
+    "total": 91,
+    "rank": 72,
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "recommended": 4,
+    "bestPrice": "$39.95",
+    "categories": [
+      "Card",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": true,
+    "id": "machi-koro-2"
+  },
+  {
+    "name": "Really Loud Librarians",
+    "rating": 8.5,
+    "total": 91,
+    "rank": 72,
+    "minPlayers": 2,
+    "maxPlayers": 12,
+    "recommended": 6,
+    "bestPrice": "$40.00",
+    "categories": [
+      "Board",
+      "Party",
+      "Knowledge",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "really-loud-librarians"
+  },
+  {
+    "name": "Ransom Notes",
+    "rating": 9,
+    "total": 90.5,
+    "rank": 74,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "recommended": 6,
+    "bestPrice": "$36.95",
+    "categories": [
+      "Card",
+      "Party"
+    ],
+    "playedWithMason": true,
+    "id": "ransom-notes"
+  },
+  {
+    "name": "Sheriff of Nottingham",
+    "rating": 9.5,
+    "total": 90.5,
+    "rank": 74,
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "recommended": 5,
+    "bestPrice": "$54.00",
+    "categories": [
+      "Board",
+      "Card",
+      "Deception",
+      "Strategy",
+      "Skill"
+    ],
+    "playedWithMason": true,
+    "id": "sheriff-of-nottingham"
+  },
+  {
+    "name": "Ultimate Werewolf",
+    "rating": 10,
+    "total": 90.5,
+    "rank": 74,
+    "minPlayers": 5,
+    "maxPlayers": 75,
+    "recommended": 20,
+    "bestPrice": "$30.00",
+    "categories": [
+      "Card",
+      "Puzzle",
+      "Deception",
+      "Strategy",
+      "Skill",
+      "Luck",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "ultimate-werewolf"
+  },
+  {
+    "name": "5 Minute Dungeon",
+    "rating": 8.5,
+    "total": 90,
+    "rank": 77,
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "recommended": 5,
+    "bestPrice": "$26.00",
+    "categories": [
+      "Card",
+      "Party",
+      "Luck",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "5-minute-dungeon"
+  },
+  {
+    "name": "Kelp",
+    "rating": 9,
+    "total": 90,
+    "rank": 77,
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "recommended": 2,
+    "bestPrice": "$82.45",
+    "categories": [],
+    "playedWithMason": false,
+    "id": "kelp"
+  },
+  {
+    "name": "Phase 10",
+    "rating": 8.5,
+    "total": 90,
+    "rank": 77,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "recommended": 6,
+    "bestPrice": "$8.00",
+    "categories": [
+      "Card",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": true,
+    "id": "phase-10"
+  },
+  {
+    "name": "Rock Paper Wizard",
+    "rating": 9,
+    "total": 90,
+    "rank": 77,
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "recommended": 6,
+    "bestPrice": "$30.00",
+    "categories": [
+      "Board",
+      "Party",
+      "Deception",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "rock-paper-wizard"
+  },
+  {
+    "name": "Santorini",
+    "rating": 8.5,
+    "total": 90,
+    "rank": 77,
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "recommended": 2,
+    "bestPrice": "$90.00",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Strategy"
+    ],
+    "playedWithMason": false,
+    "id": "santorini"
+  },
+  {
+    "name": "Articulate",
+    "rating": 9,
+    "total": 89.5,
+    "rank": 82,
+    "minPlayers": 4,
+    "maxPlayers": 10,
+    "recommended": 10,
+    "bestPrice": "$25.00",
+    "categories": [
+      "Board",
+      "Card",
+      "Party",
+      "Knowledge",
+      "Luck",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "articulate"
+  },
+  {
+    "name": "Balderdash",
+    "rating": 9,
+    "total": 89.5,
+    "rank": 82,
+    "minPlayers": 4,
+    "maxPlayers": 6,
+    "recommended": 6,
+    "bestPrice": "$25.00",
+    "categories": [
+      "Board",
+      "Party",
+      "Deception",
+      "Skill",
+      "Knowledge"
+    ],
+    "playedWithMason": false,
+    "id": "balderdash"
+  },
+  {
+    "name": "Exploding Kittens",
+    "rating": 8.5,
+    "total": 89,
+    "rank": 84,
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "recommended": 5,
+    "bestPrice": "$30.00",
+    "categories": [
+      "Card",
+      "Party",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "exploding-kittens"
+  },
+  {
+    "name": "Machi Koro Legacy",
+    "rating": 10,
+    "total": 89,
+    "rank": 84,
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "recommended": 4,
+    "bestPrice": "$59.95",
+    "categories": [
+      "Card",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "machi-koro-legacy"
+  },
+  {
+    "name": "Qawale",
+    "rating": 8.5,
+    "total": 89,
+    "rank": 84,
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "recommended": 2,
+    "bestPrice": "$39.95",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Strategy"
+    ],
+    "playedWithMason": false,
+    "id": "qawale"
+  },
+  {
+    "name": "You Can't Say Umm",
+    "rating": 8.5,
+    "total": 89,
+    "rank": 84,
+    "minPlayers": 4,
+    "maxPlayers": 12,
+    "recommended": 8,
+    "bestPrice": "$32.00",
+    "categories": [
+      "Card",
+      "Party",
+      "Skill",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": true,
+    "id": "you-can-t-say-umm"
+  },
+  {
+    "name": "Cultivate",
+    "rating": 8.5,
+    "total": 88.5,
+    "rank": 88,
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "recommended": 3,
+    "bestPrice": "$75.00",
+    "categories": [
+      "Board",
+      "Card",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": true,
+    "id": "cultivate"
+  },
+  {
+    "name": "Herd Mentality",
+    "rating": 8.5,
+    "total": 88.5,
+    "rank": 88,
+    "minPlayers": 4,
+    "maxPlayers": 20,
+    "recommended": 8,
+    "bestPrice": "$25.00",
+    "categories": [
+      "Party",
+      "Strategy",
+      "Knowledge"
+    ],
+    "playedWithMason": false,
+    "id": "herd-mentality"
+  },
+  {
+    "name": "Spyfall 2",
+    "rating": 8.5,
+    "total": 88.5,
+    "rank": 88,
+    "minPlayers": 3,
+    "maxPlayers": 12,
+    "recommended": 8,
+    "bestPrice": "$48.45",
+    "categories": [
+      "Card",
+      "Party",
+      "Deception",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "spyfall-2"
+  },
+  {
+    "name": "Tsuro",
+    "rating": 8,
+    "total": 88,
+    "rank": 91,
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "recommended": 5,
+    "bestPrice": "$45.95",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "tsuro"
+  },
+  {
+    "name": "Betrayal Legacy",
+    "rating": 10,
+    "total": 87.5,
+    "rank": 92,
+    "minPlayers": 3,
+    "maxPlayers": 5,
+    "recommended": 5,
+    "bestPrice": "$85.00",
+    "categories": [
+      "Board",
+      "Deception",
+      "Strategy",
+      "Luck",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "betrayal-legacy"
+  },
+  {
+    "name": "Codenames",
+    "rating": 8.5,
+    "total": 87.5,
+    "rank": 92,
+    "minPlayers": 4,
+    "maxPlayers": 8,
+    "recommended": 8,
+    "bestPrice": "$21.00",
+    "categories": [
+      "Board",
+      "Party",
+      "Puzzle",
+      "Skill",
+      "Knowledge",
+      "Luck",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "codenames"
+  },
+  {
+    "name": "Happy Little Dinosaurs",
+    "rating": 8,
+    "total": 87.5,
+    "rank": 92,
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "recommended": 4,
+    "bestPrice": "$39.95",
+    "categories": [
+      "Board",
+      "Card"
+    ],
+    "playedWithMason": false,
+    "id": "happy-little-dinosaurs"
+  },
+  {
+    "name": "Ticket to Ride",
+    "rating": 8.5,
+    "total": 87.5,
+    "rank": 92,
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "recommended": 4,
+    "bestPrice": "$51.00",
+    "categories": [
+      "Board",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": true,
+    "id": "ticket-to-ride"
+  },
+  {
+    "name": "You've Got Crabs",
+    "rating": 8.5,
+    "total": 87.5,
+    "rank": 92,
+    "minPlayers": 4,
+    "maxPlayers": 10,
+    "recommended": 8,
+    "bestPrice": "$32.00",
+    "categories": [
+      "Card",
+      "Party",
+      "Deception",
+      "Strategy",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "you-ve-got-crabs"
+  },
+  {
+    "name": "Ravine",
+    "rating": 8,
+    "total": 87,
+    "rank": 97,
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "recommended": 6,
+    "bestPrice": "$52.81",
+    "categories": [
+      "Card",
+      "Party",
+      "Strategy",
+      "Luck",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "ravine"
+  },
+  {
+    "name": "Zombicide",
+    "rating": 9,
+    "total": 87,
+    "rank": 97,
+    "minPlayers": 1,
+    "maxPlayers": 6,
+    "recommended": 6,
+    "bestPrice": "$143.00",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Strategy",
+      "Luck",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "zombicide"
+  },
+  {
+    "name": "Azul: Duel",
+    "rating": 8.5,
+    "total": 86.5,
+    "rank": 99,
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "recommended": 2,
+    "bestPrice": null,
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Strategy"
+    ],
+    "playedWithMason": true,
+    "id": "azul-duel"
+  },
+  {
+    "name": "Mastermind",
+    "rating": 8,
+    "total": 86.5,
+    "rank": 99,
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "recommended": 2,
+    "bestPrice": "$34.00",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Skill"
+    ],
+    "playedWithMason": false,
+    "id": "mastermind"
+  },
+  {
+    "name": "Oracle",
+    "rating": 8.5,
+    "total": 86.5,
+    "rank": 99,
+    "minPlayers": 4,
+    "maxPlayers": 5,
+    "recommended": 5,
+    "bestPrice": "$35.00",
+    "categories": [
+      "Card",
+      "Party",
+      "Deception",
+      "Strategy",
+      "Luck",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "oracle"
+  },
+  {
+    "name": "Scattergories",
+    "rating": 8.5,
+    "total": 86.5,
+    "rank": 99,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "recommended": 5,
+    "bestPrice": "$25.00",
+    "categories": [
+      "Board",
+      "Party",
+      "Skill",
+      "Knowledge",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "scattergories"
+  },
+  {
+    "name": "One Night Daybreak",
+    "rating": 9,
+    "total": 86,
+    "rank": 103,
+    "minPlayers": 3,
+    "maxPlayers": 7,
+    "recommended": 7,
+    "bestPrice": "$32.00",
+    "categories": [
+      "Board",
+      "Party",
+      "Deception",
+      "Skill",
+      "Luck",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "one-night-daybreak"
+  },
+  {
+    "name": "Sushi Go Party",
+    "rating": 8,
+    "total": 86,
+    "rank": 103,
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "recommended": 5,
+    "bestPrice": "$29.95",
+    "categories": [
+      "Card",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "sushi-go-party"
+  },
+  {
+    "name": "Uno",
+    "rating": 7.5,
+    "total": 86,
+    "rank": 103,
+    "minPlayers": 2,
+    "maxPlayers": 10,
+    "recommended": 7,
+    "bestPrice": "$7.00",
+    "categories": [
+      "Card",
+      "Party",
+      "Luck"
+    ],
+    "playedWithMason": true,
+    "id": "uno"
+  },
+  {
+    "name": "Coup",
+    "rating": 8,
+    "total": 85.5,
+    "rank": 106,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "recommended": 4,
+    "bestPrice": "$18.00",
+    "categories": [
+      "Card",
+      "Party",
+      "Deception",
+      "Strategy",
+      "Skill",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "coup"
+  },
+  {
+    "name": "Dungeons & Dragons",
+    "rating": 9,
+    "total": 85.5,
+    "rank": 106,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "recommended": 6,
+    "bestPrice": "$21.00",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Strategy",
+      "Skill",
+      "Luck",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "dungeons-dragons"
+  },
+  {
+    "name": "Taco Cat Goat Cheese Pizza",
+    "rating": 7.5,
+    "total": 85.5,
+    "rank": 106,
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "recommended": 5,
+    "bestPrice": "$15.00",
+    "categories": [
+      "Card",
+      "Party",
+      "Skill",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "taco-cat-goat-cheese-pizza"
+  },
+  {
+    "name": "Trial By Trolley",
+    "rating": 8,
+    "total": 85.5,
+    "rank": 106,
+    "minPlayers": 3,
+    "maxPlayers": 13,
+    "recommended": 7,
+    "bestPrice": "$39.95",
+    "categories": [
+      "Board",
+      "Card",
+      "Party",
+      "Strategy",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "trial-by-trolley"
+  },
+  {
+    "name": "Drinking Fluxx",
+    "rating": 8.5,
+    "total": 85,
+    "rank": 110,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "recommended": 4,
+    "bestPrice": "$33.00",
+    "categories": [
+      "Card",
+      "Party",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "drinking-fluxx"
+  },
+  {
+    "name": "Earthborne Rangers",
+    "rating": 8.5,
+    "total": 85,
+    "rank": 110,
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "recommended": 2,
+    "bestPrice": "$155.00",
+    "categories": [
+      "Card",
+      "Puzzle",
+      "Strategy",
+      "Skill",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "earthborne-rangers"
+  },
+  {
+    "name": "Gomoku",
+    "rating": 7.5,
+    "total": 85,
+    "rank": 110,
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "recommended": 2,
+    "bestPrice": "$64.99",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Strategy",
+      "Skill"
+    ],
+    "playedWithMason": false,
+    "id": "gomoku"
+  },
+  {
+    "name": "Othello",
+    "rating": 8,
+    "total": 85,
+    "rank": 110,
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "recommended": 2,
+    "bestPrice": "$23.00",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Skill"
+    ],
+    "playedWithMason": true,
+    "id": "othello"
+  },
+  {
+    "name": "Pandemic (+ ITL Expansion)",
+    "rating": 8.5,
+    "total": 85,
+    "rank": 110,
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "recommended": 4,
+    "bestPrice": "$41.00",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Strategy",
+      "Skill",
+      "Luck",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "pandemic-itl-expansion"
+  },
+  {
+    "name": "Pandemic: The Cure",
+    "rating": 8.5,
+    "total": 85,
+    "rank": 110,
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "recommended": 5,
+    "bestPrice": "$62.00",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Skill",
+      "Luck",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "pandemic-the-cure"
+  },
+  {
+    "name": "Magic Maze",
+    "rating": 7.5,
+    "total": 84.5,
+    "rank": 116,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "recommended": 4,
+    "bestPrice": "$38.95",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Strategy",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "magic-maze"
+  },
+  {
+    "name": "Rummikub",
+    "rating": 8.5,
+    "total": 84.5,
+    "rank": 116,
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "recommended": 4,
+    "bestPrice": "$23.00",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "rummikub"
+  },
+  {
+    "name": "Bad People",
+    "rating": 8,
+    "total": 84,
+    "rank": 118,
+    "minPlayers": 3,
+    "maxPlayers": 10,
+    "recommended": 6,
+    "bestPrice": "$38.95",
+    "categories": [
+      "Card",
+      "Party"
+    ],
+    "playedWithMason": false,
+    "id": "bad-people"
+  },
+  {
+    "name": "Telestrations",
+    "rating": 7.5,
+    "total": 84,
+    "rank": 118,
+    "minPlayers": 4,
+    "maxPlayers": 8,
+    "recommended": 8,
+    "bestPrice": "$23.00",
+    "categories": [
+      "Board",
+      "Party",
+      "Skill"
+    ],
+    "playedWithMason": false,
+    "id": "telestrations"
+  },
+  {
+    "name": "Yahtzee",
+    "rating": 7.5,
+    "total": 84,
+    "rank": 118,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "recommended": 4,
+    "bestPrice": "$19.00",
+    "categories": [
+      "Board",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "yahtzee"
+  },
+  {
+    "name": "Bananagrams",
+    "rating": 7.5,
+    "total": 83.5,
+    "rank": 121,
+    "minPlayers": 1,
+    "maxPlayers": 8,
+    "recommended": 4,
+    "bestPrice": "$18.99",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Knowledge",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "bananagrams"
+  },
+  {
+    "name": "Istanbul",
+    "rating": 8,
+    "total": 83.5,
+    "rank": 121,
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "recommended": 4,
+    "bestPrice": "$70.00",
+    "categories": [
+      "Board",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": true,
+    "id": "istanbul"
+  },
+  {
+    "name": "Wingspan",
+    "rating": 8,
+    "total": 83.5,
+    "rank": 121,
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "recommended": 4,
+    "bestPrice": "$77.00",
+    "categories": [
+      "Board",
+      "Card",
+      "Strategy",
+      "Skill",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "wingspan"
+  },
+  {
+    "name": "Betrayal At House on the Hill (3rd Edition)",
+    "rating": 8.5,
+    "total": 83,
+    "rank": 124,
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "recommended": 5,
+    "bestPrice": "$74.99",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Deception",
+      "Strategy",
+      "Luck",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "betrayal-at-house-on-the-hill-3rd-edition"
+  },
+  {
+    "name": "High Society",
+    "rating": 7.5,
+    "total": 83,
+    "rank": 124,
+    "minPlayers": 3,
+    "maxPlayers": 5,
+    "recommended": 5,
+    "bestPrice": "$30.00",
+    "categories": [
+      "Card",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "high-society"
+  },
+  {
+    "name": "Pandemic Legacy: Season 1",
+    "rating": 10,
+    "total": 83,
+    "rank": 124,
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "recommended": 4,
+    "bestPrice": "$90.00",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Strategy",
+      "Skill",
+      "Luck",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "pandemic-legacy-season-1"
+  },
+  {
+    "name": "Pandemic Legacy: Season 0",
+    "rating": 10,
+    "total": 82.5,
+    "rank": 127,
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "recommended": 4,
+    "bestPrice": "$95.00",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Strategy",
+      "Skill",
+      "Luck",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "pandemic-legacy-season-0"
+  },
+  {
+    "name": "Scrabble",
+    "rating": 7.5,
+    "total": 82.5,
+    "rank": 127,
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "recommended": 4,
+    "bestPrice": "$20.00",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Skill",
+      "Knowledge",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "scrabble"
+  },
+  {
+    "name": "The Game of Things",
+    "rating": 7.5,
+    "total": 82.5,
+    "rank": 127,
+    "minPlayers": 4,
+    "maxPlayers": 10,
+    "recommended": 8,
+    "bestPrice": "$36.00",
+    "categories": [
+      "Board",
+      "Party",
+      "Skill",
+      "Knowledge"
+    ],
+    "playedWithMason": false,
+    "id": "the-game-of-things"
+  },
+  {
+    "name": "Casting Shadows",
+    "rating": 7.5,
+    "total": 82,
+    "rank": 130,
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "recommended": 4,
+    "bestPrice": "$64.95",
+    "categories": [
+      "Board",
+      "Card",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "casting-shadows"
+  },
+  {
+    "name": "If You Know You Know",
+    "rating": 7,
+    "total": 81.5,
+    "rank": 131,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "recommended": 5,
+    "bestPrice": "$32.98",
+    "categories": [
+      "Card",
+      "Party"
+    ],
+    "playedWithMason": false,
+    "id": "if-you-know-you-know"
+  },
+  {
+    "name": "Monopoly Deal",
+    "rating": 7.5,
+    "total": 81.5,
+    "rank": 131,
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "recommended": 4,
+    "bestPrice": "$4.00",
+    "categories": [
+      "Card",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "monopoly-deal"
+  },
+  {
+    "name": "Monopoly Deal: No Mercy",
+    "rating": 7.5,
+    "total": 81.5,
+    "rank": 131,
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "recommended": 4,
+    "bestPrice": null,
+    "categories": [
+      "Card",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": true,
+    "id": "monopoly-deal-no-mercy"
+  },
+  {
+    "name": "Mystery Detective",
+    "rating": 8,
+    "total": 81.5,
+    "rank": 131,
+    "minPlayers": 2,
+    "maxPlayers": 20,
+    "recommended": 5,
+    "bestPrice": "$35.00",
+    "categories": [
+      "Card",
+      "Party",
+      "Puzzle"
+    ],
+    "playedWithMason": false,
+    "id": "mystery-detective"
+  },
+  {
+    "name": "The One Hundred Torii",
+    "rating": 7.5,
+    "total": 81.5,
+    "rank": 131,
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "recommended": 2,
+    "bestPrice": "$65.00",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Strategy"
+    ],
+    "playedWithMason": false,
+    "id": "the-one-hundred-torii"
+  },
+  {
+    "name": "Unstable Unicorns",
+    "rating": 8,
+    "total": 81.5,
+    "rank": 131,
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "recommended": 5,
+    "bestPrice": "$30.00",
+    "categories": [
+      "Card",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "unstable-unicorns"
+  },
+  {
+    "name": "Chameleon",
+    "rating": 7.5,
+    "total": 81,
+    "rank": 137,
+    "minPlayers": 3,
+    "maxPlayers": 8,
+    "recommended": 6,
+    "bestPrice": "$32.00",
+    "categories": [
+      "Board",
+      "Party",
+      "Puzzle",
+      "Deception",
+      "Skill",
+      "Knowledge",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "chameleon"
+  },
+  {
+    "name": "Gloomhaven",
+    "rating": 9,
+    "total": 81,
+    "rank": 137,
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "recommended": 4,
+    "bestPrice": "$165.00",
+    "categories": [
+      "Board",
+      "Card",
+      "Puzzle",
+      "Strategy",
+      "Skill",
+      "Luck",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "gloomhaven"
+  },
+  {
+    "name": "Cluedo",
+    "rating": 7,
+    "total": 80.5,
+    "rank": 139,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "recommended": 5,
+    "bestPrice": "$25.00",
+    "categories": [
+      "Board",
+      "Card",
+      "Puzzle",
+      "Skill",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "cluedo"
+  },
+  {
+    "name": "Mysterium",
+    "rating": 7.5,
+    "total": 80.5,
+    "rank": 139,
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "recommended": 5,
+    "bestPrice": "$62.00",
+    "categories": [
+      "Board",
+      "Card",
+      "Puzzle",
+      "Skill",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "mysterium"
+  },
+  {
+    "name": "The Mole",
+    "rating": 7.5,
+    "total": 79.5,
+    "rank": 141,
+    "minPlayers": 3,
+    "maxPlayers": 8,
+    "recommended": 8,
+    "bestPrice": "$40.00",
+    "categories": [
+      "Board",
+      "Party",
+      "Puzzle",
+      "Deception",
+      "Skill",
+      "Knowledge",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "the-mole"
+  },
+  {
+    "name": "T.I.M.E. Stories",
+    "rating": 9,
+    "total": 79,
+    "rank": 142,
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "recommended": 4,
+    "bestPrice": "$74.00",
+    "categories": [
+      "Board",
+      "Card",
+      "Puzzle",
+      "Skill",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "t-i-m-e-stories"
+  },
+  {
+    "name": "Wayfinders",
+    "rating": 7,
+    "total": 79,
+    "rank": 142,
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "recommended": 3,
+    "bestPrice": "$46.95",
+    "categories": [
+      "Board",
+      "Strategy"
+    ],
+    "playedWithMason": false,
+    "id": "wayfinders"
+  },
+  {
+    "name": "Tapple",
+    "rating": 6,
+    "total": 78,
+    "rank": 144,
+    "minPlayers": 2,
+    "maxPlayers": 10,
+    "recommended": 6,
+    "bestPrice": "$29.00",
+    "categories": [
+      "Card",
+      "Party",
+      "Knowledge"
+    ],
+    "playedWithMason": false,
+    "id": "tapple"
+  },
+  {
+    "name": "Muffin Time",
+    "rating": 7,
+    "total": 77.5,
+    "rank": 145,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "recommended": 5,
+    "bestPrice": "$25.00",
+    "categories": [
+      "Card",
+      "Party",
+      "Deception",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "muffin-time"
+  },
+  {
+    "name": "Sounds Fishy",
+    "rating": 6,
+    "total": 77.5,
+    "rank": 145,
+    "minPlayers": 3,
+    "maxPlayers": 10,
+    "recommended": 8,
+    "bestPrice": "$29.95",
+    "categories": [
+      "Card",
+      "Party",
+      "Deception",
+      "Knowledge"
+    ],
+    "playedWithMason": false,
+    "id": "sounds-fishy"
+  },
+  {
+    "name": "Spyfall Time Travel",
+    "rating": 7,
+    "total": 77,
+    "rank": 147,
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "recommended": 8,
+    "bestPrice": "$37.99",
+    "categories": [
+      "Board",
+      "Party",
+      "Puzzle",
+      "Deception",
+      "Skill",
+      "Knowledge",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "spyfall-time-travel"
+  },
+  {
+    "name": "Escape Room: The Game",
+    "rating": 8,
+    "total": 76,
+    "rank": 148,
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "recommended": 5,
+    "bestPrice": "$48.00",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Strategy",
+      "Skill",
+      "Knowledge",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "escape-room-the-game"
+  },
+  {
+    "name": "Hues and Cues",
+    "rating": 6,
+    "total": 76,
+    "rank": 148,
+    "minPlayers": 2,
+    "maxPlayers": 10,
+    "recommended": 8,
+    "bestPrice": "$29.00",
+    "categories": [
+      "Board",
+      "Party"
+    ],
+    "playedWithMason": false,
+    "id": "hues-and-cues"
+  },
+  {
+    "name": "Cards Against Humanity",
+    "rating": 7,
+    "total": 75.5,
+    "rank": 150,
+    "minPlayers": 4,
+    "maxPlayers": 10,
+    "recommended": 10,
+    "bestPrice": "$40.00",
+    "categories": [
+      "Card",
+      "Party"
+    ],
+    "playedWithMason": false,
+    "id": "cards-against-humanity"
+  },
+  {
+    "name": "Here to Slay",
+    "rating": 7,
+    "total": 75,
+    "rank": 151,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "recommended": 4,
+    "bestPrice": "$33.30",
+    "categories": [
+      "Board",
+      "Card",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "here-to-slay"
+  },
+  {
+    "name": "Monopoly",
+    "rating": 6,
+    "total": 75,
+    "rank": 151,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "recommended": 4,
+    "bestPrice": "$23.00",
+    "categories": [
+      "Board",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "monopoly"
+  },
+  {
+    "name": "Don't Get Got",
+    "rating": 7,
+    "total": 73.5,
+    "rank": 153,
+    "minPlayers": 2,
+    "maxPlayers": 10,
+    "recommended": 7,
+    "bestPrice": "$38.00",
+    "categories": [
+      "Board",
+      "Party",
+      "Deception",
+      "Skill",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "don-t-get-got"
+  },
+  {
+    "name": "Ticket to Ride New York",
+    "rating": 6,
+    "total": 73.5,
+    "rank": 153,
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "recommended": 3,
+    "bestPrice": "$29.00",
+    "categories": [
+      "Board",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "ticket-to-ride-new-york"
+  },
+  {
+    "name": "Pandemic Legacy: Season 2",
+    "rating": 8,
+    "total": 72,
+    "rank": 155,
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "recommended": 4,
+    "bestPrice": "$95.00",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Strategy",
+      "Skill",
+      "Luck",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "pandemic-legacy-season-2"
+  },
+  {
+    "name": "Sorts",
+    "rating": 5.5,
+    "total": 69,
+    "rank": 156,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "recommended": 4,
+    "bestPrice": "$50.00",
+    "categories": [
+      "Board",
+      "Knowledge"
+    ],
+    "playedWithMason": false,
+    "id": "sorts"
+  },
+  {
+    "name": "Vast: The Crystal Caverns",
+    "rating": 5.5,
+    "total": 68.5,
+    "rank": 157,
+    "minPlayers": 1,
+    "maxPlayers": 5,
+    "recommended": 4,
+    "bestPrice": "$110.00",
+    "categories": [
+      "Board",
+      "Card",
+      "Puzzle",
+      "Strategy"
+    ],
+    "playedWithMason": false,
+    "id": "vast-the-crystal-caverns"
+  },
+  {
+    "name": "Blokus",
+    "rating": 5,
+    "total": 66.5,
+    "rank": 158,
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "recommended": 4,
+    "bestPrice": "$33.00",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Strategy",
+      "Skill"
+    ],
+    "playedWithMason": false,
+    "id": "blokus"
+  },
+  {
+    "name": "Monopoly Bid",
+    "rating": 5,
+    "total": 66.5,
+    "rank": 158,
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "recommended": 4,
+    "bestPrice": "$5.00",
+    "categories": [
+      "Card",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "monopoly-bid"
+  },
+  {
+    "name": "5 Second Rule",
+    "rating": 5,
+    "total": 66,
+    "rank": 160,
+    "minPlayers": 3,
+    "maxPlayers": 6,
+    "recommended": 5,
+    "bestPrice": "$19.00",
+    "categories": [
+      "Board",
+      "Party",
+      "Knowledge"
+    ],
+    "playedWithMason": false,
+    "id": "5-second-rule"
+  },
+  {
+    "name": "Everybody Lies",
+    "rating": 6.5,
+    "total": 66,
+    "rank": 160,
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "recommended": 2,
+    "bestPrice": "$69.95",
+    "categories": [
+      "Board",
+      "Card",
+      "Puzzle",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "everybody-lies"
+  },
+  {
+    "name": "Mahjong",
+    "rating": 4,
+    "total": 60,
+    "rank": 162,
+    "minPlayers": 3,
+    "maxPlayers": 4,
+    "recommended": 4,
+    "bestPrice": "$70.00",
+    "categories": [
+      "Board",
+      "Strategy",
+      "Skill",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "mahjong"
+  },
+  {
+    "name": "What Do You Meme",
+    "rating": 4,
+    "total": 59.5,
+    "rank": 163,
+    "minPlayers": 3,
+    "maxPlayers": 10,
+    "recommended": 6,
+    "bestPrice": "$38.00",
+    "categories": [
+      "Card",
+      "Party"
+    ],
+    "playedWithMason": false,
+    "id": "what-do-you-meme"
+  },
+  {
+    "name": "Family Feud",
+    "rating": 4,
+    "total": 59,
+    "rank": 164,
+    "minPlayers": 3,
+    "maxPlayers": 9,
+    "recommended": 7,
+    "bestPrice": "$18.00",
+    "categories": [
+      "Board",
+      "Party",
+      "Knowledge",
+      "Cooperative/Teams"
+    ],
+    "playedWithMason": false,
+    "id": "family-feud"
+  },
+  {
+    "name": "I Wish I Didn't Know",
+    "rating": 4,
+    "total": 59,
+    "rank": 164,
+    "minPlayers": 2,
+    "maxPlayers": 8,
+    "recommended": 4,
+    "bestPrice": "$25.00",
+    "categories": [
+      "Card",
+      "Party",
+      "Knowledge"
+    ],
+    "playedWithMason": false,
+    "id": "i-wish-i-didn-t-know"
+  },
+  {
+    "name": "Millenial Madness",
+    "rating": 3,
+    "total": 52,
+    "rank": 166,
+    "minPlayers": 2,
+    "maxPlayers": 5,
+    "recommended": 4,
+    "bestPrice": "$15.00",
+    "categories": [
+      "Card",
+      "Party",
+      "Knowledge"
+    ],
+    "playedWithMason": false,
+    "id": "millenial-madness"
+  },
+  {
+    "name": "Junior Masterchef",
+    "rating": 3,
+    "total": 49.5,
+    "rank": 167,
+    "minPlayers": 2,
+    "maxPlayers": 6,
+    "recommended": 5,
+    "bestPrice": "$30.00",
+    "categories": [
+      "Board",
+      "Strategy",
+      "Knowledge"
+    ],
+    "playedWithMason": false,
+    "id": "junior-masterchef"
+  },
+  {
+    "name": "One Week Ultimate Werewolf",
+    "rating": 1,
+    "total": 42,
+    "rank": 168,
+    "minPlayers": 3,
+    "maxPlayers": 7,
+    "recommended": 5,
+    "bestPrice": "$58.00",
+    "categories": [
+      "Board",
+      "Card",
+      "Deception",
+      "Strategy",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "one-week-ultimate-werewolf"
+  },
+  {
+    "name": "Left Right Centre",
+    "rating": 0,
+    "total": 40,
+    "rank": 169,
+    "minPlayers": 3,
+    "maxPlayers": 12,
+    "recommended": 5,
+    "bestPrice": "$8.00",
+    "categories": [
+      "Board",
+      "Party",
+      "Luck"
+    ],
+    "playedWithMason": false,
+    "id": "left-right-centre"
+  },
+  {
+    "name": "Go",
+    "rating": null,
+    "total": 0,
+    "rank": 170,
+    "minPlayers": 2,
+    "maxPlayers": 2,
+    "recommended": 2,
+    "bestPrice": "$18.29",
+    "categories": [
+      "Board",
+      "Puzzle",
+      "Strategy",
+      "Skill"
+    ],
+    "playedWithMason": false,
+    "id": "go"
+  },
+  {
+    "name": "Gutterhead",
+    "rating": null,
+    "total": 0,
+    "rank": 170,
+    "minPlayers": 4,
+    "maxPlayers": 10,
+    "recommended": 10,
+    "bestPrice": "$40.00",
+    "categories": [
+      "Board",
+      "Party",
+      "Skill"
+    ],
+    "playedWithMason": false,
+    "id": "gutterhead"
+  }
+]
