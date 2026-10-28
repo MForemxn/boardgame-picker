@@ -654,3 +654,40 @@ html[data-skin="table"] .result {
   border: 1px dashed #5c2d91;
   background: #fffaf0;
 }
+
+.login-wrap {
+  max-width: 420px;
+  padding-top: 12vh;
+}
+
+.login-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-card label {
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.login-card input {
+  width: 100%;
+  background: var(--card2);
+  border: 1px solid var(--line);
+  color: var(--ink);
+  border-radius: 10px;
+  padding: 12px 14px;
+  font-size: 1rem;
+}
+
+.login-error {
+  color: var(--danger);
+  margin: 0;
+  font-size: 0.9rem;
+}
