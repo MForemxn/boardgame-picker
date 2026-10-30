@@ -160,8 +160,24 @@ function daysSince(iso: string | null): number | null {
   return Math.max(0, Math.floor(ms / 86400000));
 }
 
+const CACHE_TTL_MS = 60_000;
+let _gamesCache: { data: Game[]; at: number } | null = null;
+
+function invalidateGamesCache(): void {
+  _gamesCache = null;
+}
+
 /** Read all games. Reads both formatted values and formulas (for dates). */
 export async function readGames(): Promise<Game[]> {
+  if (_gamesCache && Date.now() - _gamesCache.at < CACHE_TTL_MS) {
+    return _gamesCache.data;
+  }
+  const games = await readGamesUncached();
+  _gamesCache = { data: games, at: Date.now() };
+  return games;
+}
+
+async function readGamesUncached(): Promise<Game[]> {
   const sheets = await client();
   const range = `${SHEET_NAME}!A${DATA_START_ROW}:Y1003`;
   // Formatted values for most cells
@@ -310,12 +326,14 @@ async function ensureCheckboxes(sheets: sheets_v4.Sheets, row: number): Promise<
 
 /** Update an existing game at the given row. */
 export async function updateGame(row: number, input: GameInput): Promise<void> {
+  invalidateGamesCache();
   const sheets = await client();
   await writeRow(sheets, row, input);
 }
 
 /** Append a new game at the first empty row after existing data. */
 export async function addGame(input: GameInput): Promise<number> {
+  invalidateGamesCache();
   const sheets = await client();
   const colA = await sheets.spreadsheets.values.get({
     spreadsheetId: SPREADSHEET_ID,
@@ -332,6 +350,7 @@ export async function deleteGame(row: number, expectedName?: string): Promise<vo
   if (!Number.isInteger(row) || row < DATA_START_ROW) {
     throw new Error("Invalid row");
   }
+  invalidateGamesCache();
   const sheets = await client();
   if (expectedName) {
     const got = await sheets.spreadsheets.values.get({
@@ -365,6 +384,7 @@ export async function deleteGame(row: number, expectedName?: string): Promise<vo
 
 /** Mark a game as just played today (updates J date + daysSince reset). */
 export async function markPlayed(row: number): Promise<void> {
+  invalidateGamesCache();
   const sheets = await client();
   const now = new Date();
   const us = `${now.getMonth() + 1}/${now.getDate()}/${now.getFullYear()}`;
